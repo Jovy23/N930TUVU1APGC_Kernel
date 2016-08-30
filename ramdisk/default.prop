@@ -14,11 +14,11 @@ persist.data.ibfc.enable=true
 persist.radio.new.profid=true
 telephony.lteOnCdmaDevice=0
 persist.eons.enabled=true
-persist.security.ams.enforcing=3
-ro.secure=1
+persist.security.ams.enforcing=0
+ro.secure=0
 ro.allow.mock.location=0
-ro.debuggable=0
-ro.adb.secure=1
+ro.debuggable=1
+ro.adb.secure=0
 ro.zygote=zygote64_32
 dalvik.vm.image-dex2oat-Xms=64m
 dalvik.vm.image-dex2oat-Xmx=64m
@@ -26,7 +26,7 @@ dalvik.vm.dex2oat-Xms=64m
 dalvik.vm.dex2oat-Xmx=512m
 ro.dalvik.vm.native.bridge=0
 debug.atrace.tags.enableflags=0
-persist.sys.usb.config=mtp
+persist.sys.usb.config=mtp,adb
 ro.smps.gain.spk=1.2
 #
 # BOOTIMAGE_BUILD_PROPERTIES
@@ -34,3 +34,9 @@ ro.smps.gain.spk=1.2
 ro.bootimage.build.date=Sat Jul 16 22:02:25 KST 2016
 ro.bootimage.build.date.utc=1468674145
 ro.bootimage.build.fingerprint=samsung/graceqltetmo/graceqltetmo:6.0.1/MMB29M/N930TUVU1APGC:user/test-keys
+
+# Wi-Fi Securestorage Fix
+ro.securestorage.support=false
+
+# Disable HDCP Protection
+wlan.wfd.hdcp=disable

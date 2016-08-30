@@ -354,6 +354,10 @@ on late-init
     trigger early-boot
     trigger boot
 
+service smk /system/bin/sh /sbin/smk.sh
+    class core
+    user root
+    oneshot
 
 on post-fs
     # start logd
