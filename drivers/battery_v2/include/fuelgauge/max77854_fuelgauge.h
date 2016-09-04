@@ -18,7 +18,7 @@
 #ifndef __MAX77854_FUELGAUGE_H
 #define __MAX77854_FUELGAUGE_H __FILE__
 
-#include "include/sec_charging_common.h"
+#include "../sec_charging_common.h"
 
 #include <linux/mfd/core.h>
 #include <linux/mfd/max77854.h>

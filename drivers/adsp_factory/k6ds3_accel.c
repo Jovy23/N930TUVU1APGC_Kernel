@@ -16,7 +16,7 @@
 #include <linux/module.h>
 #include "adsp.h"
 #ifdef CONFIG_SLPI_MOTOR
-#include <slpi_motor.h>
+#include "../adsp_factory/slpi_motor.h"
 #endif
 #define VENDOR "STM"
 #define CHIP_ID "K6DS3TR"

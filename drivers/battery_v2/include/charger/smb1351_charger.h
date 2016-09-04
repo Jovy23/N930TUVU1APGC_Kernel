@@ -16,7 +16,7 @@
 #ifndef __SMB1351_CHARGER_H__
 #define __SMB1351_CHARGER_H__
 
-#include "include/sec_charging_common.h"
+#include "../sec_charging_common.h"
 
 static int fast_chg_current[] = {
 	1000, 1200, 1400, 1600, 1800, 2000, 2200, 2400,

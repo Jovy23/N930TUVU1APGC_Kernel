@@ -16,7 +16,7 @@
 #ifndef __DA9155_CHARGER_H__
 #define __DA9155_CHARGER_H__
 
-#include "include/sec_charging_common.h"
+#include "../sec_charging_common.h"
 
 #define DA9155_REGS_BASE                    0
 #define DA9155_REGS_SIZE                    1024

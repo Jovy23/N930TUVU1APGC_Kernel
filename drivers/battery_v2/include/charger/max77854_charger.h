@@ -23,7 +23,7 @@
 #include <linux/mfd/max77854.h>
 #include <linux/mfd/max77854-private.h>
 #include <linux/regulator/machine.h>
-#include "include/sec_charging_common.h"
+#include "../sec_charging_common.h"
 
 enum {
 	CHIP_ID = 0,
